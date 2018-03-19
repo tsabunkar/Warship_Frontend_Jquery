@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkturquoise;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
+
+#listOfShipsTable tr:hover {
+    background-color:lightyellow;
+}
+
+/*Selected row avtive*/
+.selection-active,.selection-active:hover
+{
+    background:none repeat scroll 0 0 #FFF5C1 !important;
+    font-weight:bold;
+}
+
+
+
+
+  
